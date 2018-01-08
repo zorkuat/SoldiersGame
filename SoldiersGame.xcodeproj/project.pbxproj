@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09666EBB1FEC11A800E36E72 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 09666EBA1FEC11A800E36E72 /* Vehicle.m */; };
+		09666EBE1FEC128100E36E72 /* Motorbike.m in Sources */ = {isa = PBXBuildFile; fileRef = 09666EBD1FEC128100E36E72 /* Motorbike.m */; };
+		09666F051FEC22FF00E36E72 /* Weapon+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = 09666F041FEC22FF00E36E72 /* Weapon+Protected.m */; };
+		09C912471FEAB6A000195D45 /* FireWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C912461FEAB6A000195D45 /* FireWeapon.m */; };
+		09C9124A1FEAE7F200195D45 /* MeleWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C912491FEAE7F200195D45 /* MeleWeapon.m */; };
+		09C9124D1FEAEC4D00195D45 /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C9124C1FEAEC4D00195D45 /* Weapon.m */; };
+		09FAE59F1FE971D400A82801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAE59E1FE971D400A82801 /* main.m */; };
+		09FAE5A71FE9746000A82801 /* Soldier.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAE5A61FE9746000A82801 /* Soldier.m */; };
+		09FAE6341FE98C6600A82801 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FAE6331FE98C6600A82801 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09FAE5991FE971D400A82801 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09666EB51FEC0D3900E36E72 /* Weapon+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weapon+Protected.h"; sourceTree = "<group>"; };
+		09666EB81FEC107C00E36E72 /* IWeapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IWeapon.h; sourceTree = "<group>"; };
+		09666EB91FEC11A800E36E72 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		09666EBA1FEC11A800E36E72 /* Vehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		09666EBC1FEC128100E36E72 /* Motorbike.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Motorbike.h; sourceTree = "<group>"; };
+		09666EBD1FEC128100E36E72 /* Motorbike.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Motorbike.m; sourceTree = "<group>"; };
+		09666F041FEC22FF00E36E72 /* Weapon+Protected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Weapon+Protected.m"; sourceTree = "<group>"; };
+		09C912451FEAB6A000195D45 /* FireWeapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FireWeapon.h; sourceTree = "<group>"; };
+		09C912461FEAB6A000195D45 /* FireWeapon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireWeapon.m; sourceTree = "<group>"; };
+		09C912481FEAE7F200195D45 /* MeleWeapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeleWeapon.h; sourceTree = "<group>"; };
+		09C912491FEAE7F200195D45 /* MeleWeapon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeleWeapon.m; sourceTree = "<group>"; };
+		09C9124B1FEAEC4D00195D45 /* Weapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		09C9124C1FEAEC4D00195D45 /* Weapon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		09FAE59B1FE971D400A82801 /* SoldiersGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SoldiersGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FAE59E1FE971D400A82801 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09FAE5A51FE9746000A82801 /* Soldier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soldier.h; sourceTree = "<group>"; };
+		09FAE5A61FE9746000A82801 /* Soldier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soldier.m; sourceTree = "<group>"; };
+		09FAE5F21FE98C4100A82801 /* CodeResources */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
+		09FAE5F41FE98C4100A82801 /* begin_code.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = begin_code.h; sourceTree = "<group>"; };
+		09FAE5F51FE98C4100A82801 /* close_code.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = close_code.h; sourceTree = "<group>"; };
+		09FAE5F61FE98C4100A82801 /* SDL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL.h; sourceTree = "<group>"; };
+		09FAE5F71FE98C4100A82801 /* SDL_assert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_assert.h; sourceTree = "<group>"; };
+		09FAE5F81FE98C4100A82801 /* SDL_atomic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_atomic.h; sourceTree = "<group>"; };
+		09FAE5F91FE98C4100A82801 /* SDL_audio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_audio.h; sourceTree = "<group>"; };
+		09FAE5FA1FE98C4100A82801 /* SDL_bits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_bits.h; sourceTree = "<group>"; };
+		09FAE5FB1FE98C4100A82801 /* SDL_blendmode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_blendmode.h; sourceTree = "<group>"; };
+		09FAE5FC1FE98C4100A82801 /* SDL_clipboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_clipboard.h; sourceTree = "<group>"; };
+		09FAE5FD1FE98C4100A82801 /* SDL_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_config.h; sourceTree = "<group>"; };
+		09FAE5FE1FE98C4100A82801 /* SDL_config_macosx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_config_macosx.h; sourceTree = "<group>"; };
+		09FAE5FF1FE98C4100A82801 /* SDL_copying.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_copying.h; sourceTree = "<group>"; };
+		09FAE6001FE98C4100A82801 /* SDL_cpuinfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_cpuinfo.h; sourceTree = "<group>"; };
+		09FAE6011FE98C4100A82801 /* SDL_endian.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_endian.h; sourceTree = "<group>"; };
+		09FAE6021FE98C4100A82801 /* SDL_error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_error.h; sourceTree = "<group>"; };
+		09FAE6031FE98C4100A82801 /* SDL_events.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_events.h; sourceTree = "<group>"; };
+		09FAE6041FE98C4100A82801 /* SDL_filesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_filesystem.h; sourceTree = "<group>"; };
+		09FAE6051FE98C4100A82801 /* SDL_gamecontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_gamecontroller.h; sourceTree = "<group>"; };
+		09FAE6061FE98C4100A82801 /* SDL_gesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_gesture.h; sourceTree = "<group>"; };
+		09FAE6071FE98C4100A82801 /* SDL_haptic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_haptic.h; sourceTree = "<group>"; };
+		09FAE6081FE98C4100A82801 /* SDL_hints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_hints.h; sourceTree = "<group>"; };
+		09FAE6091FE98C4100A82801 /* SDL_joystick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_joystick.h; sourceTree = "<group>"; };
+		09FAE60A1FE98C4100A82801 /* SDL_keyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_keyboard.h; sourceTree = "<group>"; };
+		09FAE60B1FE98C4100A82801 /* SDL_keycode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_keycode.h; sourceTree = "<group>"; };
+		09FAE60C1FE98C4100A82801 /* SDL_loadso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_loadso.h; sourceTree = "<group>"; };
+		09FAE60D1FE98C4100A82801 /* SDL_log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_log.h; sourceTree = "<group>"; };
+		09FAE60E1FE98C4100A82801 /* SDL_main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_main.h; sourceTree = "<group>"; };
+		09FAE60F1FE98C4100A82801 /* SDL_messagebox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_messagebox.h; sourceTree = "<group>"; };
+		09FAE6101FE98C4100A82801 /* SDL_mouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_mouse.h; sourceTree = "<group>"; };
+		09FAE6111FE98C4100A82801 /* SDL_mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_mutex.h; sourceTree = "<group>"; };
+		09FAE6121FE98C4100A82801 /* SDL_name.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_name.h; sourceTree = "<group>"; };
+		09FAE6131FE98C4100A82801 /* SDL_opengl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_opengl.h; sourceTree = "<group>"; };
+		09FAE6141FE98C4100A82801 /* SDL_opengl_glext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_opengl_glext.h; sourceTree = "<group>"; };
+		09FAE6151FE98C4100A82801 /* SDL_opengles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_opengles.h; sourceTree = "<group>"; };
+		09FAE6161FE98C4100A82801 /* SDL_opengles2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2.h; sourceTree = "<group>"; };
+		09FAE6171FE98C4100A82801 /* SDL_opengles2_gl2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2_gl2.h; sourceTree = "<group>"; };
+		09FAE6181FE98C4100A82801 /* SDL_opengles2_gl2ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2_gl2ext.h; sourceTree = "<group>"; };
+		09FAE6191FE98C4100A82801 /* SDL_opengles2_gl2platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2_gl2platform.h; sourceTree = "<group>"; };
+		09FAE61A1FE98C4100A82801 /* SDL_opengles2_khrplatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2_khrplatform.h; sourceTree = "<group>"; };
+		09FAE61B1FE98C4100A82801 /* SDL_pixels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_pixels.h; sourceTree = "<group>"; };
+		09FAE61C1FE98C4100A82801 /* SDL_platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_platform.h; sourceTree = "<group>"; };
+		09FAE61D1FE98C4100A82801 /* SDL_power.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_power.h; sourceTree = "<group>"; };
+		09FAE61E1FE98C4100A82801 /* SDL_quit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_quit.h; sourceTree = "<group>"; };
+		09FAE61F1FE98C4100A82801 /* SDL_rect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_rect.h; sourceTree = "<group>"; };
+		09FAE6201FE98C4100A82801 /* SDL_render.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_render.h; sourceTree = "<group>"; };
+		09FAE6211FE98C4100A82801 /* SDL_revision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_revision.h; sourceTree = "<group>"; };
+		09FAE6221FE98C4100A82801 /* SDL_rwops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_rwops.h; sourceTree = "<group>"; };
+		09FAE6231FE98C4100A82801 /* SDL_scancode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_scancode.h; sourceTree = "<group>"; };
+		09FAE6241FE98C4100A82801 /* SDL_shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_shape.h; sourceTree = "<group>"; };
+		09FAE6251FE98C4100A82801 /* SDL_stdinc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_stdinc.h; sourceTree = "<group>"; };
+		09FAE6261FE98C4100A82801 /* SDL_surface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_surface.h; sourceTree = "<group>"; };
+		09FAE6271FE98C4100A82801 /* SDL_system.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_system.h; sourceTree = "<group>"; };
+		09FAE6281FE98C4100A82801 /* SDL_syswm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_syswm.h; sourceTree = "<group>"; };
+		09FAE6291FE98C4100A82801 /* SDL_thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_thread.h; sourceTree = "<group>"; };
+		09FAE62A1FE98C4100A82801 /* SDL_timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_timer.h; sourceTree = "<group>"; };
+		09FAE62B1FE98C4100A82801 /* SDL_touch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_touch.h; sourceTree = "<group>"; };
+		09FAE62C1FE98C4100A82801 /* SDL_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_types.h; sourceTree = "<group>"; };
+		09FAE62D1FE98C4100A82801 /* SDL_version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_version.h; sourceTree = "<group>"; };
+		09FAE62E1FE98C4100A82801 /* SDL_video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_video.h; sourceTree = "<group>"; };
+		09FAE62F1FE98C4100A82801 /* SDL_vulkan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_vulkan.h; sourceTree = "<group>"; };
+		09FAE6311FE98C4100A82801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FAE6321FE98C4100A82801 /* SDL2 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = SDL2; sourceTree = "<group>"; };
+		09FAE6331FE98C6600A82801 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09FAE5981FE971D400A82801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FAE6341FE98C6600A82801 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C9124E1FEAF4D000195D45 /* Weapons */ = {
+			isa = PBXGroup;
+			children = (
+				09C912451FEAB6A000195D45 /* FireWeapon.h */,
+				09C912461FEAB6A000195D45 /* FireWeapon.m */,
+				09C912481FEAE7F200195D45 /* MeleWeapon.h */,
+				09C912491FEAE7F200195D45 /* MeleWeapon.m */,
+			);
+			path = Weapons;
+			sourceTree = "<group>";
+		};
+		09FAE5921FE971D400A82801 = {
+			isa = PBXGroup;
+			children = (
+				09FAE59D1FE971D400A82801 /* SoldiersGame */,
+				09FAE59C1FE971D400A82801 /* Products */,
+				09FAE5EE1FE98C4100A82801 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09FAE59C1FE971D400A82801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09FAE59B1FE971D400A82801 /* SoldiersGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09FAE59D1FE971D400A82801 /* SoldiersGame */ = {
+			isa = PBXGroup;
+			children = (
+				09C9124E1FEAF4D000195D45 /* Weapons */,
+				09FAE59E1FE971D400A82801 /* main.m */,
+				09FAE5A51FE9746000A82801 /* Soldier.h */,
+				09FAE5A61FE9746000A82801 /* Soldier.m */,
+				09C9124B1FEAEC4D00195D45 /* Weapon.h */,
+				09C9124C1FEAEC4D00195D45 /* Weapon.m */,
+				09666EB51FEC0D3900E36E72 /* Weapon+Protected.h */,
+				09666F041FEC22FF00E36E72 /* Weapon+Protected.m */,
+				09666EB81FEC107C00E36E72 /* IWeapon.h */,
+				09666EB91FEC11A800E36E72 /* Vehicle.h */,
+				09666EBA1FEC11A800E36E72 /* Vehicle.m */,
+				09666EBC1FEC128100E36E72 /* Motorbike.h */,
+				09666EBD1FEC128100E36E72 /* Motorbike.m */,
+			);
+			path = SoldiersGame;
+			sourceTree = "<group>";
+		};
+		09FAE5EE1FE98C4100A82801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09FAE6331FE98C6600A82801 /* AudioToolbox.framework */,
+				09FAE5EF1FE98C4100A82801 /* SDL */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09FAE5EF1FE98C4100A82801 /* SDL */ = {
+			isa = PBXGroup;
+			children = (
+				09FAE5F01FE98C4100A82801 /* A */,
+			);
+			path = SDL;
+			sourceTree = "<group>";
+		};
+		09FAE5F01FE98C4100A82801 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				09FAE5F11FE98C4100A82801 /* _CodeSignature */,
+				09FAE5F31FE98C4100A82801 /* Headers */,
+				09FAE6301FE98C4100A82801 /* Resources */,
+				09FAE6321FE98C4100A82801 /* SDL2 */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		09FAE5F11FE98C4100A82801 /* _CodeSignature */ = {
+			isa = PBXGroup;
+			children = (
+				09FAE5F21FE98C4100A82801 /* CodeResources */,
+			);
+			path = _CodeSignature;
+			sourceTree = "<group>";
+		};
+		09FAE5F31FE98C4100A82801 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				09FAE5F41FE98C4100A82801 /* begin_code.h */,
+				09FAE5F51FE98C4100A82801 /* close_code.h */,
+				09FAE5F61FE98C4100A82801 /* SDL.h */,
+				09FAE5F71FE98C4100A82801 /* SDL_assert.h */,
+				09FAE5F81FE98C4100A82801 /* SDL_atomic.h */,
+				09FAE5F91FE98C4100A82801 /* SDL_audio.h */,
+				09FAE5FA1FE98C4100A82801 /* SDL_bits.h */,
+				09FAE5FB1FE98C4100A82801 /* SDL_blendmode.h */,
+				09FAE5FC1FE98C4100A82801 /* SDL_clipboard.h */,
+				09FAE5FD1FE98C4100A82801 /* SDL_config.h */,
+				09FAE5FE1FE98C4100A82801 /* SDL_config_macosx.h */,
+				09FAE5FF1FE98C4100A82801 /* SDL_copying.h */,
+				09FAE6001FE98C4100A82801 /* SDL_cpuinfo.h */,
+				09FAE6011FE98C4100A82801 /* SDL_endian.h */,
+				09FAE6021FE98C4100A82801 /* SDL_error.h */,
+				09FAE6031FE98C4100A82801 /* SDL_events.h */,
+				09FAE6041FE98C4100A82801 /* SDL_filesystem.h */,
+				09FAE6051FE98C4100A82801 /* SDL_gamecontroller.h */,
+				09FAE6061FE98C4100A82801 /* SDL_gesture.h */,
+				09FAE6071FE98C4100A82801 /* SDL_haptic.h */,
+				09FAE6081FE98C4100A82801 /* SDL_hints.h */,
+				09FAE6091FE98C4100A82801 /* SDL_joystick.h */,
+				09FAE60A1FE98C4100A82801 /* SDL_keyboard.h */,
+				09FAE60B1FE98C4100A82801 /* SDL_keycode.h */,
+				09FAE60C1FE98C4100A82801 /* SDL_loadso.h */,
+				09FAE60D1FE98C4100A82801 /* SDL_log.h */,
+				09FAE60E1FE98C4100A82801 /* SDL_main.h */,
+				09FAE60F1FE98C4100A82801 /* SDL_messagebox.h */,
+				09FAE6101FE98C4100A82801 /* SDL_mouse.h */,
+				09FAE6111FE98C4100A82801 /* SDL_mutex.h */,
+				09FAE6121FE98C4100A82801 /* SDL_name.h */,
+				09FAE6131FE98C4100A82801 /* SDL_opengl.h */,
+				09FAE6141FE98C4100A82801 /* SDL_opengl_glext.h */,
+				09FAE6151FE98C4100A82801 /* SDL_opengles.h */,
+				09FAE6161FE98C4100A82801 /* SDL_opengles2.h */,
+				09FAE6171FE98C4100A82801 /* SDL_opengles2_gl2.h */,
+				09FAE6181FE98C4100A82801 /* SDL_opengles2_gl2ext.h */,
+				09FAE6191FE98C4100A82801 /* SDL_opengles2_gl2platform.h */,
+				09FAE61A1FE98C4100A82801 /* SDL_opengles2_khrplatform.h */,
+				09FAE61B1FE98C4100A82801 /* SDL_pixels.h */,
+				09FAE61C1FE98C4100A82801 /* SDL_platform.h */,
+				09FAE61D1FE98C4100A82801 /* SDL_power.h */,
+				09FAE61E1FE98C4100A82801 /* SDL_quit.h */,
+				09FAE61F1FE98C4100A82801 /* SDL_rect.h */,
+				09FAE6201FE98C4100A82801 /* SDL_render.h */,
+				09FAE6211FE98C4100A82801 /* SDL_revision.h */,
+				09FAE6221FE98C4100A82801 /* SDL_rwops.h */,
+				09FAE6231FE98C4100A82801 /* SDL_scancode.h */,
+				09FAE6241FE98C4100A82801 /* SDL_shape.h */,
+				09FAE6251FE98C4100A82801 /* SDL_stdinc.h */,
+				09FAE6261FE98C4100A82801 /* SDL_surface.h */,
+				09FAE6271FE98C4100A82801 /* SDL_system.h */,
+				09FAE6281FE98C4100A82801 /* SDL_syswm.h */,
+				09FAE6291FE98C4100A82801 /* SDL_thread.h */,
+				09FAE62A1FE98C4100A82801 /* SDL_timer.h */,
+				09FAE62B1FE98C4100A82801 /* SDL_touch.h */,
+				09FAE62C1FE98C4100A82801 /* SDL_types.h */,
+				09FAE62D1FE98C4100A82801 /* SDL_version.h */,
+				09FAE62E1FE98C4100A82801 /* SDL_video.h */,
+				09FAE62F1FE98C4100A82801 /* SDL_vulkan.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		09FAE6301FE98C4100A82801 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09FAE6311FE98C4100A82801 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09FAE59A1FE971D400A82801 /* SoldiersGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FAE5A21FE971D400A82801 /* Build configuration list for PBXNativeTarget "SoldiersGame" */;
+			buildPhases = (
+				09FAE5971FE971D400A82801 /* Sources */,
+				09FAE5981FE971D400A82801 /* Frameworks */,
+				09FAE5991FE971D400A82801 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoldiersGame;
+			productName = SoldiersGame;
+			productReference = 09FAE59B1FE971D400A82801 /* SoldiersGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09FAE5931FE971D400A82801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = TATINC;
+				TargetAttributes = {
+					09FAE59A1FE971D400A82801 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 09FAE5961FE971D400A82801 /* Build configuration list for PBXProject "SoldiersGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09FAE5921FE971D400A82801;
+			productRefGroup = 09FAE59C1FE971D400A82801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09FAE59A1FE971D400A82801 /* SoldiersGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09FAE5971FE971D400A82801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C912471FEAB6A000195D45 /* FireWeapon.m in Sources */,
+				09FAE5A71FE9746000A82801 /* Soldier.m in Sources */,
+				09666EBB1FEC11A800E36E72 /* Vehicle.m in Sources */,
+				09666EBE1FEC128100E36E72 /* Motorbike.m in Sources */,
+				09666F051FEC22FF00E36E72 /* Weapon+Protected.m in Sources */,
+				09C9124D1FEAEC4D00195D45 /* Weapon.m in Sources */,
+				09C9124A1FEAE7F200195D45 /* MeleWeapon.m in Sources */,
+				09FAE59F1FE971D400A82801 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09FAE5A01FE971D400A82801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		09FAE5A11FE971D400A82801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		09FAE5A31FE971D400A82801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDL/A",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09FAE5A41FE971D400A82801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDL/A",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09FAE5961FE971D400A82801 /* Build configuration list for PBXProject "SoldiersGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FAE5A01FE971D400A82801 /* Debug */,
+				09FAE5A11FE971D400A82801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09FAE5A21FE971D400A82801 /* Build configuration list for PBXNativeTarget "SoldiersGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FAE5A31FE971D400A82801 /* Debug */,
+				09FAE5A41FE971D400A82801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09FAE5931FE971D400A82801 /* Project object */;
+}
